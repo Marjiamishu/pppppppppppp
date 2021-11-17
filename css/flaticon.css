@@ -1,0 +1,59 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 25/08/2019 09:03
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff2") format("woff2"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-style: normal;
+  color: var(--secondary-color);
+}
+
+.flaticon-profile:before { content: "\f100"; }
+.flaticon-shopping-cart:before { content: "\f101"; }
+.flaticon-magnifier-tool:before { content: "\f102"; }
+.flaticon-salad:before { content: "\f103"; }
+.flaticon-harvest:before { content: "\f104"; }
+.flaticon-cow:before { content: "\f105"; }
+.flaticon-broccoli:before { content: "\f106"; }
+.flaticon-fruit:before { content: "\f107"; }
+.flaticon-wheat:before { content: "\f108"; }
+.flaticon-tree-with-many-leaves:before { content: "\f109"; }
+.flaticon-tractor:before { content: "\f10a"; }
+.flaticon-cow-head:before { content: "\f10b"; }
+.flaticon-cow-1:before { content: "\f10c"; }
+.flaticon-wheat-1:before { content: "\f10d"; }
+.flaticon-house:before { content: "\f10e"; }
+.flaticon-field:before { content: "\f10f"; }
+.flaticon-agronomy:before { content: "\f110"; }
+.flaticon-full-screen:before { content: "\f111"; }
+.flaticon-black-bubble-speech:before { content: "\f112"; }
+.flaticon-left-arrow:before { content: "\f113"; }
+.flaticon-right-arrow:before { content: "\f114"; }
+.flaticon-policy:before { content: "\f115"; }
+.flaticon-delivery-truck:before { content: "\f116"; }
+.flaticon-list:before { content: "\f117"; }
+.flaticon-smartphone:before { content: "\f118"; }
+.flaticon-mail:before { content: "\f119"; }
+.flaticon-call-answer:before { content: "\f11a"; }
+.flaticon-placeholder:before { content: "\f11b"; }
